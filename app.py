@@ -39,9 +39,15 @@ You're analyzing the dynamics of a group chat or exploring individual conversati
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<div style='font-family: "Roboto", sans-serif; text-align: center; font-size: 15px; font-weight: 400; color: red;'>
+Note: ChatDecoder does not store your chat data. All interactions are processed in real-time and not saved.</div>
+""", unsafe_allow_html=True)
+
 st.title("")
 
-uploaded_file = st.sidebar.file_uploader("Choose a WhatsApp chat file")
+uploaded_file = st.sidebar.file_uploader("Choose a WhatsApp chat file:")
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
