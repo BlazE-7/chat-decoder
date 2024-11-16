@@ -28,6 +28,7 @@ To enhance comprehension, ChatDecoder generates a variety of visualizations that
 - **Monthly Timeline**: This timeline displays messaging trends over the days and months.
 - **Activity Map**: With these visual maps, users can easily see which days and months are most active, giving a sense of when the conversation tends to pick up.
 - **Hourly Activity Heatmap**: This heatmap reveals the most active hours within a day, showing when the conversation is most lively and when it's quiet.
+- **Oveall Usage**: The Sunburst chart visualizes chat activity across years, months, and days of the week, showing yearly and monthly trends while revealing daily patterns for peak engagement and conversation frequency.
 
 ---
 
